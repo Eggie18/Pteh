@@ -1,8 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x:hidden ;
+     
 }
+
+html{
+    overflow-x: hidden;
+}
+
 header {
     background-color: maroon;
     height: 100px;
@@ -23,14 +28,11 @@ header .tag a {
 /* Body Styling */
 body {
     background-color: beige;
-    
     background-image: url('sml.jpg' ) ;
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Sizes Section Styling */
 .Sizes {
     position: relative;
