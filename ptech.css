@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+}
+header {
+    background-color: maroon;
+    height: 100px;
+}
+
+header .tag {
+    position: relative;
+    top: 27px;
+    left: 550px;
+    font-size: 40px;
+}
+
+header .tag a {
+    text-decoration: none;
+    color: beige;
+}
+
+/* Body Styling */
+body {
+    background-color: beige;
+    
+    background-image: url('sml.jpg' ) ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Sizes Section Styling */
+.Sizes {
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+.Sizes ul {
+    display: flex;
+}
+
+.Sizes ul li {
+    list-style-type: none;
+    padding: 50px;
+}
+
+.Sizes ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+.Sizes ul li a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
